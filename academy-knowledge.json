@@ -1,0 +1,117 @@
+{
+  "title": "公式AIアカデミー学習ノート｜AIエージェントチャンネル",
+  "updated_at": "2026-07-15",
+  "usage": "会話またはプロジェクトへ参照コンテキストとして添付する。恒久的なモデル再学習ではない。",
+  "academies": [
+    {
+      "id": "openai",
+      "name": "OpenAI Academy",
+      "tool": "ChatGPT / OpenAI",
+      "official": "https://academy.openai.com/",
+      "course": "https://academy.openai.com/public/courses/agents-and-workflows-bieml",
+      "courseName": "Agents and Workflows",
+      "basis": "文脈、目標、出力形式、境界、レビュー、反復改善を備えた再現可能なワークフロー設計",
+      "facts": [
+        "公開ページでは約90分・セルフペース・中級者向け",
+        "AI FoundationsとApplied AI Foundationsの次に進む位置づけ",
+        "実際の繰り返し業務を題材に、エージェントの文脈・出力・境界・レビューを設計"
+      ],
+      "learns": [
+        "単発の依頼を再利用できるワークフローへ分解する",
+        "必要な文脈と期待する出力形式を先に定義する",
+        "人が承認する境界と品質レビューを設ける",
+        "失敗結果を材料に指示と工程を改善する"
+      ],
+      "recommended": "ChatGPTを単発利用で終わらせず、調査・資料作成・定型業務を再現可能な手順へ変えたい人",
+      "caution": "ChatGPTアカウントと利用可能な機能は環境により異なります。重要な判断と外部操作は人が確認してください。"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic Academy",
+      "tool": "Claude / Claude Code",
+      "official": "https://www.anthropic.com/learn",
+      "course": "https://anthropic.skilljar.com/claude-code-in-action",
+      "courseName": "Claude Code in Action",
+      "basis": "リポジトリ理解、CLAUDE.md、コンテキスト参照、Plan、カスタムコマンド、MCP、GitHub、Hooks、SDK",
+      "facts": [
+        "公式案内では無料・15講義・動画約1時間・クイズ1回・修了証",
+        "前提知識はCLI操作とGitの基礎。教材閲覧にはSkilljarアカウントを使用",
+        "セットアップからMCP・GitHub・Hooks・SDKまでを一続きで扱う"
+      ],
+      "learns": [
+        "ファイルとコマンドを使ってコードベースを理解する",
+        "CLAUDE.md・/init・@参照でコンテキストを管理する",
+        "Planと小さな差分で安全に変更する",
+        "MCP・Hooks・SDKで反復作業を自動化する"
+      ],
+      "recommended": "Claude Codeをチャットではなく、自分のリポジトリで計画・変更・検証する開発環境として使いたい人",
+      "caution": "変更前に計画と対象ファイルを確認し、削除・公開・外部送信などの操作には承認点を置いてください。"
+    },
+    {
+      "id": "google",
+      "name": "Google Skills",
+      "tool": "Gemini / Google AI",
+      "official": "https://www.skills.google/?locale=ja",
+      "course": "https://www.skills.google/paths/118?locale=ja",
+      "courseName": "初級: 生成 AI の概要",
+      "basis": "生成AIとLLMの基礎、責任あるAI、システム指示、安全設定、チャット、ストリーミング、トークン、関数呼び出し、埋め込み",
+      "facts": [
+        "日本語ページでは5アクティビティの初級ラーニングパス",
+        "生成AI・LLM・責任あるAIの基礎を短い単位で学ぶ",
+        "公式カタログにはGen AI SDKを扱うNo cost表示のハンズオンもある"
+      ],
+      "learns": [
+        "生成AI・LLM・責任あるAIの基本用語を整理する",
+        "システム指示・安全設定・会話状態を設計する",
+        "トークン、ストリーミング、コンテキストを扱う",
+        "関数呼び出し・埋め込みを実装案へ落とす"
+      ],
+      "recommended": "GeminiやGoogle Cloudの生成AIを使う前に、基礎と安全な実装の考え方を固めたい人",
+      "caution": "コースごとに無料クレジット・No cost表示・利用条件が異なるため、開始画面の最新条件を確認してください。"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor Learn",
+      "tool": "Cursor",
+      "official": "https://cursor.com/ja/learn",
+      "course": "https://cursor.com/learn/working-with-agents",
+      "courseName": "Working with agents",
+      "basis": "モデルの仕組み、幻覚、トークン、コンテキスト、ツール呼び出し、エージェント、コード理解、機能実装、バグ修正、レビュー、テスト",
+      "facts": [
+        "公式LearnはAI basicsとCoding agentsの教材群で構成",
+        "Working with agentsからコードベース理解・実装・修正・レビューへ進める",
+        "AIの限界と検証を前提にコーディングエージェントを扱う"
+      ],
+      "learns": [
+        "コードベースに必要な文脈を選んで渡す",
+        "変更前に対象範囲と検証方法を決める",
+        "機能実装・バグ修正・リファクタリングを小さく進める",
+        "差分・テスト・セキュリティを人が確認する"
+      ],
+      "recommended": "AIエディタを補完だけで終わらせず、既存コードを理解して変更を検証する共同作業者として使いたい開発者",
+      "caution": "生成されたコードをそのまま採用せず、差分・テスト・依存関係・権限への影響を確認してください。"
+    },
+    {
+      "id": "manus",
+      "name": "Manus Academy",
+      "tool": "Manus",
+      "official": "https://academy.manus.im/ja",
+      "course": "https://academy.manus.im/courses/manus-68d574c52e2bdfc6f21deba1",
+      "courseName": "Manus - 基礎",
+      "basis": "実行型エージェント、許可を伴うブラウジング、並列リサーチ、アプリ操作、QC、リプレイ、文書・スライド・表計算・Web・画像の成果物",
+      "facts": [
+        "日本語コース画面ではBeginner・全21章・完了証明書を表示",
+        "調査やアプリ操作から複数形式の成果物作成までを扱う",
+        "サインイン後の利用枠・料金・機能条件はアカウント側で確認が必要"
+      ],
+      "learns": [
+        "依頼を調査・操作・成果物・確認へ分解する",
+        "許可が必要な操作と停止条件を先に決める",
+        "並列リサーチを出典付きで統合する",
+        "リプレイとQCで成果物の再現性・品質を確認する"
+      ],
+      "recommended": "調査・企画・資料作成を、回答文ではなく完成した成果物まで進めるAIの使い方を学びたい人",
+      "caution": "外部サービスへの操作、送信、公開、購入は承認なしに進めないよう、開始時に権限と停止条件を指定してください。"
+    }
+  ]
+}
